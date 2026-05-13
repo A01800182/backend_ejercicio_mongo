@@ -1,0 +1,8 @@
+1.-Crear un repositorio nuevo git (public)
+2.-Clonar el repositorio de forma local
+3.-Copiar el boiler plate del proyecto
+4.-Generar una coleccion en un archivo de model de acuerdo a su numero de matricula
+5.-Generar un controller para crear (post) y listar (get)
+6. Integrar proyecto
+7. Desplegar en la instancia de nube
+8. Probar ambas rutas en postman para revision
