@@ -47,3 +47,12 @@ show users;
 
 db.grantRolesToUser("admin",["readWriteAnyDatabase"])
 show users;
+
+#Migrar proyecto a la nube
+
+mkdir projects
+cd projects
+git clone https://github.com/vsosahdz/TC3005B-2026-G2.git
+npm install
+vim .env
+npm run build:start

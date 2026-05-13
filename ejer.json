@@ -1,0 +1,142 @@
+{
+  "ejercicio_nosql": {
+    "descripcion": "27 colecciones para práctica de bases de datos no relacionales",
+    "colecciones": [
+      {
+        "nombre": "productos",
+        "atributos": ["nombre", "precio", "categoria"],
+        "matricula": "A01801461"
+      },
+      {
+        "nombre": "inventario",
+        "atributos": ["sku", "cantidad", "almacen_id"],
+        "matricula": "A01800280"
+      },
+      {
+        "nombre": "transacciones",
+        "atributos": ["monto", "metodo_pago", "fecha_hora"],
+        "matricula": "A01800182"
+      },
+      {
+        "nombre": "cupones",
+        "atributos": ["codigo", "descuento_porcentaje", "activo"],
+        "matricula": "A01800840"
+      },
+      {
+        "nombre": "facturas",
+        "atributos": ["numero_serie", "rfc_receptor", "total_impuestos"],
+        "matricula": "A01751408"
+      },
+      {
+        "nombre": "proveedores",
+        "atributos": ["razon_social", "contacto_principal", "calificacion"],
+        "matricula": "A01747352"
+      },
+      {
+        "nombre": "usuarios",
+        "atributos": ["username", "biografia", "seguidores_count"],
+        "matricula": "A01752903"
+      },
+      {
+        "nombre": "comentarios",
+        "atributos": ["texto", "usuario_id", "editado"],
+        "matricula": "A01800371"
+      },
+      {
+        "nombre": "podcast",
+        "atributos": ["titulo", "anfitrion", "duracion_promedio"],
+        "matricula": "A01800766"
+      },
+      {
+        "nombre": "streams",
+        "atributos": ["streamer_id", "espectadores_pico", "categoria_juego"],
+        "matricula": "A01800593"
+      },
+      {
+        "nombre": "notificaciones",
+        "atributos": ["tipo_alerta", "leido", "prioridad"],
+        "matricula": "A01801140"
+      },
+      {
+        "nombre": "albumes",
+        "atributos": ["nombre_album", "artista", "año_lanzamiento"],
+        "matricula": "A01752303"
+      },
+      {
+        "nombre": "cursos",
+        "atributos": ["titulo", "instructor", "nivel_dificultad"],
+        "matricula": "A01750911"
+      },
+      {
+        "nombre": "estudiantes",
+        "atributos": ["matricula_alumno", "carrera", "promedio_general"],
+        "matricula": "A01752310"
+      },
+      {
+        "nombre": "lecciones",
+        "atributos": ["orden", "contenido_url", "tipo_archivo"],
+        "matricula": "A01751433"
+      },
+      {
+        "nombre": "pacientes",
+        "atributos": ["curp", "tipo_sangre", "alergias"],
+        "matricula": "A01801044"
+      },
+      {
+        "nombre": "citas_medicas",
+        "atributos": ["id_doctor", "especialidad", "costo_consulta"],
+        "matricula": "A01752433"
+      },
+      {
+        "nombre": "medicamentos",
+        "atributos": ["sustancia_activa", "laboratorio", "requiere_receta"],
+        "matricula": "A01278340"
+      },
+      {
+        "nombre": "vehiculos",
+        "atributos": ["placa", "modelo", "kilometraje"],
+        "matricula": "A01769650"
+      },
+      {
+        "nombre": "rutas",
+        "atributos": ["origen", "destino", "distancia_estimada"],
+        "matricula": "A01800483"
+      },
+      {
+        "nombre": "sensores_iot",
+        "atributos": ["mac_address", "tipo_sensor", "ultima_lectura"],
+        "matricula": "A01752828"
+      },
+      {
+        "nombre": "logs_sistema",
+        "atributos": ["nivel_error", "modulo", "mensaje_stacktrace"],
+        "matricula": "A01752759"
+      },
+      {
+        "nombre": "tickets_soporte",
+        "atributos": ["asunto", "estado_resolucion", "tecnico_asignado"],
+        "matricula": "A01751315"
+      },
+      {
+        "nombre": "destinos",
+        "atributos": ["ciudad", "pais", "clima_predominante"],
+        "matricula": "A01801092"
+      },
+      {
+        "nombre": "hoteles",
+        "atributos": ["nombre", "estrellas", "precio_noche"],
+        "matricula": "A01749697"
+      },
+      {
+        "nombre": "vuelos",
+        "atributos": ["aerolinea", "numero_vuelo", "puerta_embarque"],
+        "matricula": "A01751347"
+      },
+      {
+        "nombre": "restaurantes",
+        "atributos": ["nombre", "tipo_cocina", "rango_precios"],
+        "matricula": "A01800430"
+      }
+    ]
+  }
+}
