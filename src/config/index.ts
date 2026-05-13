@@ -14,3 +14,5 @@ export const DB_NOSQL_NAME:string = process.env.DB_NOSQL_NAME || 'test';
 export const DB_NOSQL_USER:string = process.env.DB_NOSQL_USER || 'admin';
 export const DB_NOSQL_PASS:string = process.env.DB_NOSQL_PASS || 'Password1234';
 export const DB_NOSQL_HOST:string = process.env.DB_NOSQL_HOST || 'localhost';
+export const DB_NOSQL_PORT:string = process.env.DB_NOSQL_PORT || '27017';
+export const MATRICULA:string = process.env.MATRICULA || 'A01801461';

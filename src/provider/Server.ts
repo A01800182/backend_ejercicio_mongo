@@ -36,8 +36,15 @@ class Server{
     private async connectDB(){
         try{
             await db.sequelize.sync({force:false});
+        }catch(err){
+            console.log("No se pudo conectar a MySQL");
+            console.log(err);
+        }
+
+        try{
             await dbnosql.connect();
         }catch(err){
+            console.log("No se pudo conectar a MongoDB");
             console.log(err);
         }
     }
